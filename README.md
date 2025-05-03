@@ -79,17 +79,17 @@ python script.py
 Quick Commands
 
     Run with proxy:
-python api_scanner.py --proxy http://localhost:8080
+python script.py --proxy http://localhost:8080
 
     Headless mode:
-python api_scanner.py --headless
+python script.py --headless
 
     Specify browser:
-python api_scanner.py --browser firefox
+python script.py --browser firefox
 
     Configuration
 
-Edit api_scanner_config/config.json for permanent settings:
+Edit config/config.json for permanent settings:
 json
 
 {
